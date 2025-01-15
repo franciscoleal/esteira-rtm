@@ -1,0 +1,86 @@
+{
+"FundoCasca": {
+        "DadosCadastrais": {
+                "TIPO_FUNDO": "FIF",
+                "ATRIBUTO": "Monoclasse",
+                "RAZAO_SOCIAL": "Fundo do Tipo FIF Multimercados Balanceados para Testes",
+                "NOME_COMERCIAL": "Fundo do Tipo FIF Multimercados Balanceados para Testes",
+                "WEBSITE": "http://www.WebsiteDoFundo.com.br",
+                "FUNDO_ADAPTADO": "Sim",
+                "PAIS_ORIGEM": "",
+                "MOEDA": ""
+        },
+        "PerfilDoFundo": {
+                "PRAZO_DEPURACAO": "Indeterminado",
+                    "DURACAO_MESES": ""
+        },
+        "Prestadores": {
+                "CNPJ": "60701190000104",
+                "ADMINISTRADOR": "ADMINISTRADOR",
+                "GESTOR": "GESTOR"	
+        },
+        "Documentos": {
+                "REGULAMENTO": "Regulamento"
+        }
+},
+"Classe": {
+        "DadosCadastrais": {
+            "CODIGO_CLASSE": "",
+            "EVENTO": "Incorporação",
+            "RAZAO_SOCIAL": "Teste LP IE FC",
+            "NOME_COMERCIAL": "Teste LP IE FC"
+        },
+        "PerfilDaClasse": {
+            "CATEGORIA_CVM": "Multimercados",
+            "CATEGORIA_ANBIMA": "Multimercados",
+            "TIPO_ANBIMA": "Multimercados Balanceados",
+            "SUB_CATEGORIA_N2": "",
+            "SUB_CATEGORIA_N3": "",
+            "COMPOSICAO": "CI",
+            "TRIBUTACAO_PERSEGUIDA": "Longo Prazo",
+            "FUNDO_ALAVANCADO": "",
+            "DERIVATIVOS": "Permitido",
+            "POSSUI_BENCHMARK": "Sim",
+            "BENCHMARK": "EURO",
+            "CREDITO_PRIVADO": "Não",
+            "PERCENTUAL_PERMITIDO_CREDITO_PRIVADO": "60",
+            "INVESTIMENTO_EXTERIOR": "Até 40%",
+            "PERCENTUAL_PERMITIDO_INVESTIMENTO_EXTERIOR": "30",
+            "INDICADOR_LIMITES_POR_EMISSOR_ATIVO": "Não se aplica",
+            "FOCO_ATUACAO": "",
+            "FUNDO_ESG": "Não",
+            "FORMA_CONDOMINIO": "Aberto",
+            "INFRAESTRUTURA": "",
+            "CRIPTOATIVOS_MAIOR_RISCO_CARTEIRA": "Não",
+            "PORCENTAGEM_PERMITIDO_CRIPTOATIVOS": "",
+            "PRAZO_DURACAO": "Indeterminado",
+            "DURACAO_MESES": "",
+            "COMITE_INVESTIMENTO": "",
+            "MEMBROS_COMITE_INVESTIMENTO": "",
+            "ENTIDADE_INVESTIMENTO": "",
+            "RESPONSABILIDADE_LIMITADA": "Não", 
+            "TIPO_CESSAO": "",
+            "RECOMPRA": "",
+            "COOBRIGACAO": "",
+            "SEGURO": "",
+            "DIREITO_CREDITORIO": "",
+            "ORIGINADOR": "",
+            "CEDENTE": "",
+            "SACADO": "",
+            "FUNDOS_ISENTOS_COM_COTAS": "Sim",
+            "ENTIDADE_INVESTIMENTO_FINS_TRIBUTARIOS": "",
+            "FIAGRO": ""
+        }	
+},
+"PREENCHE_TAXAS_CLASSE": "Não",
+"PREENCHE_TAXAS_SUBCLASSE": "Sim",
+"ATRIBUTO-CLASSE": "Monoclasse",
+"RAZAO_SOCIAL": "Fteste, CRED PRIV,LP, IE",
+"NOME_COMERCIAL": "teste, CRED PRIV,LP, IE",
+"CVM": "Multimercado",    
+"CAT_ANBIMA": "Multimercado",   
+"TYPE_ANBIMA": "Multimercados Livre",    
+"CAT_N1": "ESTRATEGIAS",    
+"CAT_N2": "LIVRE",
+"TIPO-VALOR-MINIMO": "FIF-Multimercado"
+}

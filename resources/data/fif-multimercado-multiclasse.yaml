@@ -1,0 +1,11 @@
+FundoCasca: 
+        TIPO_ANBIMA: FIF,
+        ATRIBUTO: Multiclasse,
+STATUS_TAXAS: Sim,
+RAZAO_SOCIAL: Fundo FIF Ações Multiclasse,
+NOME_COMERCIAL: Fundo FIF Ações Multiclasse,
+CVM: Multimercado,    
+CAT_ANBIMA: Multimercado,   
+TYPE_ANBIMA: Multimercados Livre,    
+CAT_N1: ESTRATEGIAS,    
+CAT_N2: LIVRE

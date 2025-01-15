@@ -1,0 +1,85 @@
+{
+    "FundoCasca": {
+            "DadosCadastrais": {
+                "TIPO_FUNDO": "FIP",
+                "ATRIBUTO": "Monoclasse",
+                "RAZAO_SOCIAL": "Fundo do Tipo FIP Fundos Participações para Testes",
+                "NOME_COMERCIAL": "Fundo do Tipo FIP Fundos Participações para Testes",
+                "WEBSITE": "http://www.WebsiteDoFundo.com.br",
+                "FUNDO_ADAPTADO": "Sim",
+                "PAIS_ORIGEM": "",
+                "MOEDA": ""
+            },
+            "PerfilDoFundo": {
+                "PRAZO_DEPURACAO": "Indeterminado",
+                "DURACAO_MESES": ""
+            },
+            "Prestadores": {
+                "CNPJ": "60701190000104",
+                "ADMINISTRADOR": "ADMINISTRADOR",
+                "GESTOR": "GESTOR"	
+            },
+            "Documentos": {
+                "REGULAMENTO": "Regulamento"
+            }
+    },
+    "Classe": {
+        "DadosCadastrais": {
+            "CODIGO_CLASSE": "",
+            "EVENTO": "Fusão",
+            "RAZAO_SOCIAL": "Teste",
+            "NOME_COMERCIAL": "Teste"
+        },
+        "PerfilDaClasse": {
+            "CATEGORIA_CVM": "FIP",
+            "CATEGORIA_ANBIMA": "",
+            "TIPO_ANBIMA": "",
+            "SUB_CATEGORIA_N2": "",
+            "SUB_CATEGORIA_N3": "",
+            "COMPOSICAO": "CIC",
+            "TRIBUTACAO_PERSEGUIDA": "Alíquota de 15%",
+            "FUNDO_ALAVANCADO": "Não",
+            "DERIVATIVOS": "Permitido",
+            "POSSUI_BENCHMARK": "",
+            "BENCHMARK": "",
+            "CREDITO_PRIVADO": "",
+            "PERCENTUAL_PERMITIDO_CREDITO_PRIVADO": "",
+            "INVESTIMENTO_EXTERIOR": "Até 40%",
+            "PERCENTUAL_PERMITIDO_INVESTIMENTO_EXTERIOR": "60",
+            "INDICADOR_LIMITES_POR_EMISSOR_ATIVO": "",
+            "FOCO_ATUACAO": "Infraestrutura",
+            "FUNDO_ESG": "Não",
+            "FORMA_CONDOMINIO": "",
+            "INFRAESTRUTURA": "",
+            "CRIPTOATIVOS_MAIOR_RISCO_CARTEIRA": "Não",
+            "PORCENTAGEM_PERMITIDO_CRIPTOATIVOS": "",
+            "PRAZO_DURACAO": "Indeterminado",
+            "DURACAO_MESES": "",
+            "COMITE_INVESTIMENTO": "Não",
+            "MEMBROS_COMITE_INVESTIMENTO": "",
+            "ENTIDADE_INVESTIMENTO": "Não",
+            "RESPONSABILIDADE_LIMITADA": "Sim", 
+            "TIPO_CESSAO": "",
+            "RECOMPRA": "",
+            "COOBRIGACAO": "",
+            "SEGURO": "",
+            "DIREITO_CREDITORIO": "",
+            "ORIGINADOR": "",
+            "CEDENTE": "",
+            "SACADO": "",
+            "FUNDOS_ISENTOS_COM_COTAS": "Sim",
+            "ENTIDADE_INVESTIMENTO_FINS_TRIBUTARIOS": "Não",
+            "FIAGRO": "Não"
+        }	
+    },
+    "PREENCHE_TAXAS_CLASSE": "Não",
+    "PREENCHE_TAXAS_SUBCLASSE": "Sim",
+    "ATRIBUTO-CLASSE": "Monoclasse",
+    
+    "CVM": "ETF",    
+    "CAT_ANBIMA": "ETF",   
+    "TYPE_ANBIMA": "ETF Renda Fixa",    
+    "CAT_N1": "ESTRATEGIAS",    
+    "CAT_N2": "LIVRE",
+    "TIPO-VALOR-MINIMO": "FIF-Multimercado"
+    }

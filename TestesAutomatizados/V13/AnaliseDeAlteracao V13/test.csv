@@ -1,0 +1,13 @@
+
+./
+CTA01_ValidarInconsistenciaAlteracao_FIF/
+CTA02_ValidarInconsistenciaAlteracao_FIDC/
+CTA03_ValidarInconsistenciaAlteracao_FII/
+CTA04_ValidarInconsistenciaAlteracao_FIP/
+CTA05_ValidarInconsistenciaAlteracao_ETF/
+CTA07_ValidarAprovacaoAlteracao_FIF/
+CTA08_ValidarAprovacaoAlteracao_FIDC/
+CTA09_ValidarAprovacaoAlteracao_FII/
+CTA10_ValidarAprovacaoAlteracao_FIP/
+CTA11_ValidarAprovacaoAlteracao_ETF/
+../

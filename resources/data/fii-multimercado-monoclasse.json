@@ -1,0 +1,16 @@
+{
+"FundoCasca": {
+        "TIPO_ANBIMA": "FII",
+        "CVM": "FII",
+        "ATRIBUTO": "Monoclasse"
+},
+"STATUS_TAXAS": "Sim",
+"ATRIBUTO-CLASSE": "Multiclasse",
+"RAZAO_SOCIAL": "Fteste, CRED PRIV,LP, IE",
+"NOME_COMERCIAL": "teste, CRED PRIV,LP, IE",
+"CVM": "Multimercado",    
+"CAT_ANBIMA": "Multimercado",   
+"TYPE_ANBIMA": "Multimercados Livre",    
+"CAT_N1": "ESTRATEGIAS",    
+"CAT_N2": "LIVRE"
+}

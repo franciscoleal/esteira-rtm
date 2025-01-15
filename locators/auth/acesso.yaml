@@ -1,0 +1,8 @@
+logo-anbima: //img[contains(@alt,'Logo da Anbima')]
+email-label: //input[@placeholder='insira seu e-mail']
+email-input: //input[@placeholder='insira seu e-mail']
+senha-label: //input[@placeholder='insira sua senha']
+senha-input: //input[@placeholder='insira sua senha']
+entrar-button: //input[contains(@value,'Entrar')]
+token: //input[contains(@name,'code')]
+autenticar-button: //button[contains(.,'Autenticar')]

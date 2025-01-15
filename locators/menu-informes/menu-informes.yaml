@@ -1,0 +1,3 @@
+menu-informes: //p[contains(.,'Informes')]
+submenu-plcota: //div[@class='MuiBox-root css-1wk9spg'][contains(.,'TIPO')]
+submenu-plcota-h6: //h6[contains(.,'TIPO')]

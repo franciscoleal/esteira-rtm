@@ -1,0 +1,12 @@
+FundoCasca: 
+        TIPO_ANBIMA: FIF,
+        ATRIBUTO: Monoclasse,
+STATUS_TAXAS: Sim,
+RAZAO_SOCIAL: teste, CRED PRIV,LP, IE,
+NOME_COMERCIAL: teste, CRED PRIV,LP,IE,
+CVM: Multimercado,    
+CAT_ANBIMA: Multimercado,   
+TYPE_ANBIMA: Multimercados Livre,    
+CAT_N1: ESTRATEGIAS,    
+CAT_N2: LIVRE
+

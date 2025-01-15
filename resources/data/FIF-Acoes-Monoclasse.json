@@ -1,0 +1,92 @@
+{
+"FundoCasca": {
+        "DadosCadastrais": {
+                "TIPO_FUNDO": "FIF",
+                "ATRIBUTO": "Monoclasse",
+                "RAZAO_SOCIAL": "Fundo do Tipo FIF Ações para Testes",
+                "NOME_COMERCIAL": "Fundo do Tipo FIF Ações para Testes",
+                "WEBSITE": "http://www.WebsiteDoFundo.com.br",
+                "FUNDO_ADAPTADO": "Sim",
+                "PAIS_ORIGEM": "",
+                "MOEDA": ""
+        },
+        "PerfilDoFundo": {
+                "PRAZO_DEPURACAO": "Indeterminado",
+                    "DURACAO_MESES": ""
+        },
+        "Prestadores": {
+                "CNPJ": "60701190000104",
+                "ADMINISTRADOR": "ADMINISTRADOR",
+                "GESTOR": "GESTOR"	
+        },
+        "Documentos": {
+                "REGULAMENTO": "Regulamento"
+        }
+},
+"Classe": {
+        "DadosCadastrais": {
+            "CODIGO_CLASSE": "",
+            "EVENTO": "Fusão",
+            "RAZAO_SOCIAL": "Teste BDR Nível 1 Mercado de Acesso IE",
+            "NOME_COMERCIAL": "Teste BDR Nível 1 Mercado de Acesso IE"
+        },
+        "PerfilDaClasse": {
+            "CATEGORIA_CVM": "Ações",
+            "CATEGORIA_ANBIMA": "Ações",
+            "TIPO_ANBIMA": "Ações Indexados",
+            "SUB_CATEGORIA_N2": "",
+            "SUB_CATEGORIA_N3": "",
+            "COMPOSICAO": "CI",
+            "TRIBUTACAO_PERSEGUIDA": "",
+            "FUNDO_ALAVANCADO": "Não",
+            "DERIVATIVOS": "Permitido",
+            "POSSUI_BENCHMARK": "Sim",
+            "BENCHMARK": "EURO",
+            "CREDITO_PRIVADO": "",
+            "PERCENTUAL_PERMITIDO_CREDITO_PRIVADO": "40",
+            "INVESTIMENTO_EXTERIOR": "Até 40%",
+            "PERCENTUAL_PERMITIDO_INVESTIMENTO_EXTERIOR": "40",
+            "INDICADOR_LIMITES_POR_EMISSOR_ATIVO": "Não se aplica",
+            "FOCO_ATUACAO": "",
+            "FUNDO_ESG": "Não",
+            "FORMA_CONDOMINIO": "Fechado",
+            "INFRAESTRUTURA": "",
+            "CRIPTOATIVOS_MAIOR_RISCO_CARTEIRA": "Não",
+            "PORCENTAGEM_PERMITIDO_CRIPTOATIVOS": "10",
+            "PRAZO_DURACAO": "Indeterminado",
+            "DURACAO_MESES": "",
+            "COMITE_INVESTIMENTO": "",
+            "MEMBROS_COMITE_INVESTIMENTO": "",
+            "ENTIDADE_INVESTIMENTO": "",
+            "RESPONSABILIDADE_LIMITADA": "Não", 
+            "TIPO_CESSAO": "",
+            "RECOMPRA": "",
+            "COOBRIGACAO": "",
+            "SEGURO": "",
+            "DIREITO_CREDITORIO": "",
+            "ORIGINADOR": "",
+            "CEDENTE": "",
+            "SACADO": "",
+            "FUNDOS_ISENTOS_COM_COTAS": "Sim",
+            "ENTIDADE_INVESTIMENTO_FINS_TRIBUTARIOS": "",
+            "FIAGRO": ""
+        },
+        "TaxasDaClasse": {
+            "PREENCHE_TAXAS_CLASSE": "Sim",
+            "TAXA_COMPOSICAO_GLOBAL": "Administracao-Gestao",
+            "COBRA-TAXA-PERFORMANCE": "Sim",
+            "DESABILITAR-TAXAS": "Não"    	
+        }
+},
+"PREENCHE_TAXAS_CLASSE": "Não",
+"PREENCHE_TAXAS_SUBCLASSE": "Sim",
+"ATRIBUTO-CLASSE": "Monoclasse",
+"RAZAO_SOCIAL": "MERCADO DE ACESSO BDR Nível 1",
+"NOME_COMERCIAL": "MERCADO DE ACESSO BDR Nível 1",
+"CVM": "Ações",    
+"CAT_ANBIMA": "Ações",   
+"TYPE_ANBIMA": "Ações Indexados",    
+"CAT_N1": "Indexados",    
+"CAT_N2": "Indices",
+"TIPO-VALOR-MINIMO": ""
+}

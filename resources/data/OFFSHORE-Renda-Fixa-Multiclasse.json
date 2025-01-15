@@ -1,0 +1,143 @@
+{
+    "FundoCasca": {
+            "DadosCadastrais": {
+                    "TIPO_FUNDO": "OFFSHORE",
+                    "CODIGO_FUNDO": "",
+                    "ATRIBUTO": "Multiclasse",
+                    "RAZAO_SOCIAL": "Fundo do Tipo Offshore para Testes",
+                    "NOME_COMERCIAL": "Fundo do Tipo Offshore para Testes",
+                    "WEBSITE": "http://www.WebsiteDoFundo.com.br",
+                    "FUNDO_ADAPTADO": "Sim",
+                    "PAIS_ORIGEM": "USA - United States",
+                    "MOEDA": "USD - Dólar americano"
+            },
+            "PerfilDoFundo": {
+                    "PRAZO_DEPURACAO": "Indeterminado",
+                    "DURACAO_MESES": ""
+            },
+            "Prestadores": {
+                    "CNPJ": "60701190000104",
+                    "ADMINISTRADOR": "ADMINISTRADOR",
+                    "GESTOR": "GESTOR"	
+            },
+            "Documentos": {
+                    "REGULAMENTO": "Regulamento"
+            }
+    },
+    "Classe": {
+            "DadosCadastrais": {
+                "CODIGO_CLASSE": "",
+                "EVENTO": "Incorporação",
+                "RAZAO_SOCIAL": "Teste Offshore",
+                "NOME_COMERCIAL": "Teste Offshore"
+            },
+            "PerfilDaClasse": {
+                "CATEGORIA_CVM": "Offshore",
+                "CATEGORIA_ANBIMA": "",
+                "TIPO_ANBIMA": "Offshore Renda Fixa",
+                "SUB_CATEGORIA_N2": "",
+                "SUB_CATEGORIA_N3": "",
+                "COMPOSICAO": "CI",
+                "TRIBUTACAO_PERSEGUIDA": "",
+                "FUNDO_ALAVANCADO": "Não",
+                "DERIVATIVOS": "Permitido",
+                "POSSUI_BENCHMARK": "",
+                "BENCHMARK": "",
+                "CREDITO_PRIVADO": "",
+                "PERCENTUAL_PERMITIDO_CREDITO_PRIVADO": "",
+                "INVESTIMENTO_EXTERIOR": "",
+                "PERCENTUAL_PERMITIDO_INVESTIMENTO_EXTERIOR": "",
+                "INDICADOR_LIMITES_POR_EMISSOR_ATIVO": "",
+                "FOCO_ATUACAO": "",
+                "FUNDO_ESG": "",
+                "FORMA_CONDOMINIO": "Aberto",
+                "INFRAESTRUTURA": "",
+                "CRIPTOATIVOS_MAIOR_RISCO_CARTEIRA": "Não",
+                "PORCENTAGEM_PERMITIDO_CRIPTOATIVOS": "",
+                "PRAZO_DURACAO": "Indeterminado",
+                "DURACAO_MESES": "",
+                "COMITE_INVESTIMENTO": "",
+                "MEMBROS_COMITE_INVESTIMENTO": "",
+                "ENTIDADE_INVESTIMENTO": "",
+                "RESPONSABILIDADE_LIMITADA": "Não", 
+                "TIPO_CESSAO": "",
+                "RECOMPRA": "",
+                "COOBRIGACAO": "",
+                "SEGURO": "",
+                "DIREITO_CREDITORIO": "",
+                "ORIGINADOR": "",
+                "CEDENTE": "",
+                "SACADO": "",
+                "FUNDOS_ISENTOS_COM_COTAS": "Sim",
+                "ENTIDADE_INVESTIMENTO_FINS_TRIBUTARIOS": "",
+                "FIAGRO": ""
+            },
+            "TaxasDaClasse": {
+                "PREENCHE_TAXAS_CLASSE": "Não",
+                "TAXA_COMPOSICAO_GLOBAL": "Administracao-Gestao",
+                "COBRA-TAXA-PERFORMANCE": "Sim",
+                "DESABILITAR-TAXAS": "Não"    	
+            },
+            "PrestadoresDaClasse": {
+                "CNPJ-INSTITUICAO1": "60701190000104",
+                "CNPJ-INSTITUICAO2": "46977431000103"	    
+            }
+    },
+    "SubClasse": {
+        "DadosCadastrais": {
+                "CODIGO_CLASSE": "",
+                "EVENTO": "Fusão",
+                "NOME_COMERCIAL": "Teste Offshore"
+        },
+        "PerfilDaSubClasse": {
+                "RESTRICAO_INVESTIMENTO": "Não há Restrição",
+                "VINCULO_RESTRICAO": "",
+                "TIPO_INVESTIDOR": "Geral",
+                "ESTRATEGIA_DISTRIBUICAO": "Livre",
+                "APLICACAO_AUTOMATICA": "",
+                "PLANO_PREVIDENCIA": "",
+                "PERIODICIDADE_ENVIO_PLCOTA": "Diário",
+                "CALCULO_COTA": "Fechamento"
+
+        },
+        "TaxasDaSubClasse": {
+            "PREENCHE_TAXAS_SUBCLASSE": "Sim",
+            "TAXA_COMPOSICAO_GLOBAL": "Selecionar-Todos",
+            "COBRA-TAXA-PERFORMANCE": "Sim",
+            "DESABILITAR-TAXAS": "Não"    	
+        }
+    },
+    "ATRIBUTO-CLASSE": "Offshore",
+    "RAZAO_SOCIAL": "MERCADO DE ACESSO BDR Nível 1",
+    "NOME_COMERCIAL": "MERCADO DE ACESSO BDR Nível 1",
+    "CVM": "Ações",    
+    "CAT_ANBIMA": "Ações",   
+    "TYPE_ANBIMA": "Ações Indexados",    
+    "CAT_N1": "Indexados",    
+    "CAT_N2": "Indices",
+    "TIPO-VALOR-MINIMO": "Offshore",
+    "Filtro-Avancado-Solicitacao": {
+        "SERVICO": "Alteração de fundo",
+        "STATUS": "Aprovado",
+        "DATA-ATUALIZACAO": "",
+        "STATUS-INTEGRACAO": "Pendente",
+        "CNPJ-RAZAOSOCIAL-NOMECOMERCIAL-CODIGODOFUNDO": " ",
+        "TIPO-FUNDO": "FIF",
+        "STATUS-FUNDO": "Rascunho",
+        "CNPJ-RAZAOSOCIALADMINISTRADOR": " ",
+        "CNPJ-RAZAOSOCIALGESTOR": " ",
+        "CNPJ-RAZAOSOCIAL-NOMECOMERCIAL-CODIGODACLASSE": " ",
+        "NOMECOMERCIAL-CODIGODASUBCLASSE": " "
+    },
+    "Filtro-Avancado-Registrado": {
+        "TIPO-FUNDO": "FIF",
+        "STATUS-FUNDO": "Ativo",
+        "CNPJ-RAZAOSOCIALADMINISTRADOR": " ",
+        "CNPJ-RAZAOSOCIALGESTOR": " ",
+        "PROVEDOR": " ",
+        "CNPJ-RAZAOSOCIAL-NOMECOMERCIAL-CODIGODACLASSE": " ",
+        "DATA-INICIO-CLASSE": "",
+        "NOMECOMERCIAL-CODIGODASUBCLASSE": " ",
+        "DATA-INICIO-SUBCLASSE": ""
+    }
+}

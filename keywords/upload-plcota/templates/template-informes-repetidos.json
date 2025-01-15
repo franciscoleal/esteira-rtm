@@ -1,0 +1,32 @@
+[
+    {
+      "codigo_classe_subclasse": "C0000000779",
+      "data_competencia": "2024-08-12",
+      "patrimonio_liquido": 21032275.44000,
+      "valor_cota": 19.95749000000000,
+      "volume_total_aplicacoes": 0,
+      "volume_total_resgates": 0,
+      "volume_total_resgate_ir": 0,
+      "numero_cotistas": 1,
+      "numero_solicitacao": null,
+      "registro": null,
+      "status": null,
+      "inconsistencia": null,
+      "justificativa": null
+    },
+    {
+      "codigo_classe_subclasse": "C0000000779",
+      "data_competencia": "2024-08-12",
+      "patrimonio_liquido": 21032275.44000,
+      "valor_cota": 19.95749000000000,
+      "volume_total_aplicacoes": 0,
+      "volume_total_resgates": 0,
+      "volume_total_resgate_ir": 0,
+      "numero_cotistas": 1,
+      "numero_solicitacao": null,
+      "registro": null,
+      "status": null,
+      "inconsistencia": null,
+      "justificativa": null
+    }
+]

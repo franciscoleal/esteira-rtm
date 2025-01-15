@@ -1,0 +1,17 @@
+[
+  {
+    "codigo_classe_subclasse": "C0000519162",
+    "data_competencia": "09/03/2024",
+    "patrimonio_liquido": "112000.00",
+    "valor_cota": "1800.00",
+    "volume_total_aplicacoes": "11000000.00",
+    "volume_total_resgates": "1000000.00",
+    "volume_total_resgate_ir": "0.00",
+    "numero_cotistas": "100",
+    "numero_solicitacao": "0000000086",
+    "registro": "00001",
+    "status": "PROCESSADO",
+    "inconsistencias": [],
+    "justificativa": null
+  }
+]
