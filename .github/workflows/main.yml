@@ -1,0 +1,73 @@
+# de um nome para sua pipeline
+name: Pipeline Robot Framework
+
+# ação que desencadeia a execução
+on: push
+
+jobs:
+  test:
+    name: Testes de Automação 
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: https://user.github.io/robot-pipeline/report.html
+
+    steps:
+      - name: Projeto de Teste
+        uses: actions/checkout@v3
+      
+      - name: Instalando o Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12'
+      
+      - uses: actions/checkout@v4
+      - name: Instalando o nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalação de Dependencias do projeto
+        run: |
+          pip install robotframework
+          pip install robotframework-requests
+          pip install -U pip
+          pip install robotframework-browser
+          rfbrowser init
+          pip install robotframework-screencaplibrary
+          pip install --upgrade robotframework-seleniumlibrary
+          pip install PyYAML
+          
+
+      - name: Execução dos Testes
+        run: |
+          robot --outputdir results/ tests/
+      
+      - name: Salvando resultado dos testes
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: resultado-testes
+          path: /results
+        
+      - name: Configurar Site do relatorio
+        uses: actions/configure-pages@v2
+        if: always()
+        
+      - name: Upload do relatorio
+        uses: actions/upload-pages-artifact@v1
+        if: always()
+        with:
+          path: results/
+
+      - name: Deply do relatorio no Github Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+        if: always()
+
+    
