@@ -43,6 +43,8 @@ jobs:
           pip install --upgrade robotframework-seleniumlibrary
           pip install PyYAML
           pip install python-dotenv
+          pip install robotframework-jsonlibrary
+          pip install robotframework-faker
           
 
       - name: Execução dos Testes

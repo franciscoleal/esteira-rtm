@@ -8,7 +8,7 @@ Library     ScreenCapLibrary    # Precisa instalar essa library quando baixa em 
 Library     OperatingSystem
 Library     DateTime
 Library     Collections
-Library     ExcelLibrary    # Precisa instalar essa library quando baixa em pc novo
+# Library     ExcelLibrary    # Precisa instalar essa library quando baixa em pc novo
 Library     String
 Library     FakerLibrary    locale=pt_BR    # Precisa instalar essa library quando baixa em pc novo, e instalar o "pip install setuptools"
 # Library     ImageRobot
