@@ -2,8 +2,7 @@
 name: Pipeline Robot Framework RTM
 
 # ação que desencadeia a execução
-on: push
-
+on: workflow_dispatch
 jobs:
   test:
     name: Testes Regressivos
