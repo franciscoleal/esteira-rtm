@@ -131,7 +131,7 @@
     },
     "Filtro-Avancado-Registrado": {
         "TIPO-FUNDO": "FIF",
-        "STATUS-FUNDO": "Ativo",
+        "STATUS-FUNDO": "",
         "CNPJ-RAZAOSOCIALADMINISTRADOR": " ",
         "CNPJ-RAZAOSOCIALGESTOR": " ",
         "PROVEDOR": " ",

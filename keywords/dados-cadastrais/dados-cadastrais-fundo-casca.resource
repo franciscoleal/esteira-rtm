@@ -29,15 +29,16 @@ Resource      ../../main.robot
     Commons.Combo    //div[@aria-labelledby='atributo']    //li[contains(.,'${dados['FundoCasca']['DadosCadastrais']['ATRIBUTO']}')]
     
     # Pega a data e hora atual do sistema
-    ${CURRENT_DATE}    Get Current Date    result_format=%d/%m/%Y %H:%M:%S
-    
+    ${CURRENT_DATE}    Get Current Date    result_format=%d%m%Y %H%M%S
+    Set Global Variable    ${CURRENT_DATE}
+
     # Campo Razão Social
     Commons.Visivel    //input[contains(@name,'razaoSocial')]
-    SeleniumLibrary.Input Text    locator=//input[contains(@name,'razaoSocial')]    text=${dados['FundoCasca']['DadosCadastrais']['RAZAO_SOCIAL']} ${SPACE} (${CURRENT_DATE})
+    SeleniumLibrary.Input Text    locator=//input[contains(@name,'razaoSocial')]    text=${dados['FundoCasca']['DadosCadastrais']['RAZAO_SOCIAL']} ${SPACE} ${CURRENT_DATE}
     
     # Campo Nome Comercial
     Commons.Visivel    //input[contains(@name,'nomeComercial')]
-    SeleniumLibrary.Input Text    locator=//input[contains(@name,'nomeComercial')]    text=${dados['FundoCasca']['DadosCadastrais']['NOME_COMERCIAL']} ${SPACE} (${CURRENT_DATE})
+    SeleniumLibrary.Input Text    locator=//input[contains(@name,'nomeComercial')]    text=${dados['FundoCasca']['DadosCadastrais']['NOME_COMERCIAL']} ${SPACE} ${CURRENT_DATE}
     
     # Campo Website do Fundo
     Commons.Visivel    //input[contains(@name,'websiteFundo')]

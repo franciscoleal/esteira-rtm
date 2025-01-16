@@ -3,7 +3,7 @@ Resource    ../../main.robot
 
 *** Keywords ***
 Abrir o navegador
-    SeleniumLibrary.Open Browser    browser=chrome                                            
+    SeleniumLibrary.Open Browser    browser=headlesschrome                                               
     SeleniumLibrary.Delete All Cookies
     SeleniumLibrary.Maximize Browser Window
     Start Video Recording    embed=True    embed_width=800px    

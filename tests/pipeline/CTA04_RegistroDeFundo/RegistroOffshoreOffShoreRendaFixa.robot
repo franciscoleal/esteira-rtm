@@ -40,7 +40,7 @@ Test Teardown      Navegador-Config.Fechar o navegador
     Profile.Alterar o perfil    Perfil=Administrador    Instituicao=ITAU    menu=1
     Novo-Fundo.Efetuar novo Registro de Fundos através do formulário
     Input-dados.Input dos Dados
-    ...    PATH-JSON=${EXECDIR}${/}py-robot-cvm175-rtm${/}resources${/}data${/}OFFSHORE-Renda-Fixa-Multiclasse.json
+    ...    PATH-JSON=${EXECDIR}${/}resources${/}data${/}OFFSHORE-Renda-Fixa-Multiclasse.json
     Cadastrar-Fundo-Casca.[Fundo Casca]Cadastrar Fundo Casca
     Cadastrar-Classe.[Classe]Cadastrar Classe
     Cadastrar-SubClasse.[SubClasse]Cadastrar SubClasse
