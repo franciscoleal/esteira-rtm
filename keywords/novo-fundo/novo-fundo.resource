@@ -8,4 +8,3 @@ Efetuar novo Registro de Fundos através do formulário
     SeleniumLibrary.Wait Until Element Is Visible    locator=//button[contains(.,'Registro de FundosPreencha o formulário')]
     Sleep    2s
     SeleniumLibrary.Click Element    locator=//b[contains(.,'Registro de Fundos')]
-    # ScreenCapLibrary.Take Screenshot

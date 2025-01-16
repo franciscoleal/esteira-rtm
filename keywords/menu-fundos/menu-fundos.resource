@@ -12,4 +12,3 @@ Clicar no Menu Fundos
     SeleniumLibrary.Click Element     locator=//a[contains(.,'Fundos')]
     Sleep    5s
     Commons.Wait And Click    //button[contains(.,'${SECTION}')]
-    ScreenCapLibrary.Take Screenshot
