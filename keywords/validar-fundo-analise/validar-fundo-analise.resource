@@ -11,9 +11,8 @@ Validar fundo em analise
         # Sleep    4s
         ${Status}=    Run Keyword And Return Status    Commons.Visivel    //span[contains(.,'Aguardando análise Anbima')]
         IF    "${Status}" == "False"
-            Validar fundo em analise    OffShoreRendaFixa
+            Validar-Fundo-Analise.Validar fundo em analise    OffShoreRendaFixa
         END     
-        ScreenCapLibrary.Take Screenshot    Evidencia_FundoEmAnalise_${TIPO}.png
     ELSE
         Sleep    5s
         Commons.Wait And Input    //input[contains(@name,'search')]    ${CNPJ_VALIDO}
@@ -21,5 +20,4 @@ Validar fundo em analise
         Commons.Wait And Press Keys    //input[contains(@name,'search')]    ENTER
         Sleep    4s
         Commons.Visivel    //span[contains(.,'Aguardando análise Anbima')]    15s    
-        ScreenCapLibrary.Take Screenshot    Evidencia_FundoEmAnalise_${TIPO}.png
     END
