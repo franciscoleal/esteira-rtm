@@ -62,7 +62,7 @@ jobs:
         if: always()
         
       - name: Upload do relatorio 
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         if: always()
         with:
           path: results/
