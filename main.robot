@@ -1,7 +1,7 @@
 *** Settings ***
 Library     Browser
 Library     SeleniumLibrary
-Library     Selenium2Library
+# Library     Selenium2Library
 Library     Process
 Library     Dialogs
 Library     ScreenCapLibrary    # Precisa instalar essa library quando baixa em pc novo
@@ -11,12 +11,12 @@ Library     Collections
 Library     ExcelLibrary    # Precisa instalar essa library quando baixa em pc novo
 Library     String
 Library     FakerLibrary    locale=pt_BR    # Precisa instalar essa library quando baixa em pc novo, e instalar o "pip install setuptools"
-Library     ImageRobot
+# Library     ImageRobot
 # Library     XML
-Library     RPA.Tables    # Precisa instalar a rpaframework
-Library     RPA.JavaAccessBridge    access_bridge_path=C:\Program Files\Java\jre1.8.0_421\bin\WindowsAccessBridge-64.dll
-Library     ImapLibrary
-Library     RPA.Browser.Selenium
+# Library     RPA.Tables    # Precisa instalar a rpaframework
+# Library     RPA.JavaAccessBridge    access_bridge_path=C:\Program Files\Java\jre1.8.0_421\bin\WindowsAccessBridge-64.dll
+# Library     ImapLibrary
+# Library     RPA.Browser.Selenium
 # Library     CSVLibrary
 Library     JSONLibrary
 

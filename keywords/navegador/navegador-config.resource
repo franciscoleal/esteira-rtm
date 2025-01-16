@@ -6,8 +6,8 @@ Abrir o navegador
     SeleniumLibrary.Open Browser    browser=headlesschrome                                               
     SeleniumLibrary.Delete All Cookies
     SeleniumLibrary.Maximize Browser Window
-    Start Video Recording    embed=True    embed_width=800px    
+    # Start Video Recording    embed=True    embed_width=800px    
     
 Fechar o navegador
-    Stop Video Recording
+    # Stop Video Recording
     SeleniumLibrary.Close Browser
