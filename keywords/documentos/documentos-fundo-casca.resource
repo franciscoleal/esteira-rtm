@@ -12,4 +12,3 @@ Resource    ../../main.robot
     SeleniumLibrary.Choose File    locator=//input[contains(@type,'file')]    file_path=${EXECDIR}${/}resources${/}data${/}REGULAMENTO.pdf  
     SeleniumLibrary.Element Should Be Visible    locator=//p[contains(.,'REGULAMENTO.pdf')]
     Sleep    2s
-    ScreenCapLibrary.Take Screenshot    documentos.png
