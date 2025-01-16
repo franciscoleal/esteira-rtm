@@ -18,10 +18,10 @@ jobs:
 
     steps:
       - name: Projeto de Teste
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Instalando o Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
@@ -58,18 +58,18 @@ jobs:
           path: /results
         
       - name: Configurar Site do relatorio
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v5
         if: always()
         
       - name: Upload do relatorio 
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
         if: always()
         with:
           path: results/
 
       - name: Deploy do relatorio no Github Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
         if: always()
 
     
