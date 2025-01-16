@@ -19,12 +19,12 @@ jobs:
     steps:
       - name: Projeto de Teste
         uses: actions/checkout@v4
-      
+
       - name: Instalando o Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-      
+          python-version: "3.11"
+
       - uses: actions/checkout@v4
       - name: Instalando o nodejs
         uses: actions/setup-node@v4
@@ -44,24 +44,23 @@ jobs:
           pip install python-dotenv
           pip install robotframework-jsonlibrary
           pip install robotframework-faker
-          
 
       - name: Execução dos Testes
         run: |
           robot --outputdir results/ tests/pipe/
-      
+
       - name: Salvando resultado dos testes
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: resultado-testes
           path: /results
-        
+
       - name: Configurar Site do relatorio
         uses: actions/configure-pages@v5
         if: always()
-        
-      - name: Upload do relatorio 
+
+      - name: Upload do relatorio
         uses: actions/upload-pages-artifact@v3
         if: always()
         with:
@@ -71,5 +70,3 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         if: always()
-
-    
