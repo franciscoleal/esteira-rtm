@@ -1,12 +1,12 @@
 # de um nome para sua pipeline
-name: Pipeline Robot Framework
+name: Pipeline Robot Framework RTM
 
 # ação que desencadeia a execução
 on: push
 
 jobs:
   test:
-    name: Testes de Automação 
+    name: Testes Regressivos
     runs-on: ubuntu-latest
 
     permissions:
@@ -15,7 +15,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: https://user.github.io/robot-pipeline/report.html
+      url: https://user.github.io/esteira-rtm/report.html
 
     steps:
       - name: Projeto de Teste
@@ -24,7 +24,7 @@ jobs:
       - name: Instalando o Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12'
+          python-version: '3.11'
       
       - uses: actions/checkout@v4
       - name: Instalando o nodejs
@@ -42,11 +42,12 @@ jobs:
           pip install robotframework-screencaplibrary
           pip install --upgrade robotframework-seleniumlibrary
           pip install PyYAML
+          pip install python-dotenv
           
 
       - name: Execução dos Testes
         run: |
-          robot --outputdir results/ tests/
+          robot --outputdir results/ tests/pipeline/
       
       - name: Salvando resultado dos testes
         uses: actions/upload-artifact@v3
@@ -59,13 +60,13 @@ jobs:
         uses: actions/configure-pages@v2
         if: always()
         
-      - name: Upload do relatorio
+      - name: Upload do relatorio 
         uses: actions/upload-pages-artifact@v1
         if: always()
         with:
           path: results/
 
-      - name: Deply do relatorio no Github Pages
+      - name: Deploy do relatorio no Github Pages
         id: deployment
         uses: actions/deploy-pages@v1
         if: always()
