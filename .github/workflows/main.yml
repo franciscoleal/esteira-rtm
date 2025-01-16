@@ -49,7 +49,7 @@ jobs:
 
       - name: Execução dos Testes
         run: |
-          robot --outputdir results/ tests/pipeline/
+          robot --outputdir results/ tests/pipe/
       
       - name: Salvando resultado dos testes
         uses: actions/upload-artifact@v3
