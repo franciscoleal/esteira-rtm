@@ -15,7 +15,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: https://user.github.io/esteira-rtm/report.html
+      url: https://https://franciscoleal.github.io/esteira-rtm/report.html
 
     steps:
       - name: Projeto de Teste
